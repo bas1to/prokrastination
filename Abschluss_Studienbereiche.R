@@ -2,6 +2,7 @@ library(tidyverse)
 library(reshape2)
 library(data.table)
 
+## read.cvs
 read.cvs = function(file.name) {
   read.csv("umfrageonline_final.csv", header = TRUE)
 }
@@ -88,9 +89,9 @@ mas_data = plotdata(master[4:15])
 stex_data = plotdata(staatsex[4:15])
 
 t = cbind(bac_data, mas_data, stex_data)
-k = setDT(as.data.frame(t), keep.rownames = T)[]
-names(k)[2:4] <- c("Bachelor", "Master", "Staatsexamen")
-dfp1 <- melt(k)
+k2 = setDT(as.data.frame(t), keep.rownames = T)[]
+names(k2)[2:4] <- c("Bachelor", "Master", "Staatsexamen")
+dfp1 <- melt(k2)
 
 p_abschluss = ggplot(dfp1, aes(x = rn, y= value, fill = variable)) +
   geom_bar(stat="identity", width=0.8, position = "dodge") 
@@ -98,12 +99,12 @@ p_abschluss  + theme(axis.text.x = element_text(angle = 65, hjust = 1)) + ggtitl
 
 ggplot(data = dfp1, mapping = aes(x = variable, y = value, fill = rn)) + 
   geom_bar(position = "dodge", stat = "identity" , color = "black") +
-  ggtitle("Prokrastination nach Abschlussart") + xlab("Abschluss") + ylab("Häufigkeit (Anzahl)") + labs(fill = "Prokrastinationsart")
+  ggtitle("Prokrastination nach Abschlussart") + xlab("Abschluss") + ylab("Haeufigkeit (Anzahl)") + labs(fill = "Prokrastinationsart")
 
 
 ggplot(data = dfp1, mapping = aes(x = variable, y = value, fill = rn)) + 
   geom_bar(position = "fill", stat = "identity" , color = "black") +
-  ggtitle("Prokrastination nach Abschlussart") + xlab("Abschluss") + ylab("Häufigkeit (Anzahl)") + labs(fill = "Prokrastinationsart")
+  ggtitle("Prokrastination nach Abschlussart") + xlab("Abschluss") + ylab("Haeufigkeit (Anzahl)") + labs(fill = "Prokrastinationsart")
 
 
 
@@ -115,5 +116,5 @@ lvls = levels(umfrage$Zeit_Insgesamt_Prokrastiniert.)
 l = c(lvls[2], lvls[1], lvls[4], lvls[3])
 umfrage$Zeit_Insgesamt_Prokrastiniert. = factor(umfrage$Zeit_Insgesamt_Prokrastiniert., levels =  l)
 ggplot(data = umfrage) + geom_bar(mapping = aes(x = Zufriedenheit_Leistung., fill = Zeit_Insgesamt_Prokrastiniert.), position = "dodge") +
-  xlab("Leistungszufriedenheit") + ylab("Häufigkeit (Anzahl)") + labs(fill = "Insgesamte Prokrastinationszeit") +
-coord_flip()
+  xlab("Leistungszufriedenheit") + ylab("Haeufigkeit (Anzahl)") + labs(fill = "Insgesamte Prokrastinationszeit") +
+coord_flip() + scale_fill_discrete(breaks = c("sehr viel", "viel", "mittel", "nicht so viel"))

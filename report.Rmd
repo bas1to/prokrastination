@@ -1,0 +1,61 @@
+---
+title: "Untitled"
+output: github_document
+params:
+  csv_file: umfrageonline_final.csv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning = FALSE, error = FALSE)
+```
+
+## GitHub Documents
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+
+```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=FALSE, fig.show = "hide"}
+```
+
+```{r, comment = ''}
+knitr::kable(k, caption = 'A caption')
+```
+
+# Introduction
+- Explanation of the context.
+- Research question: description, justification of relevance, and motivation.
+- State and explain your hypotheses.
+- Give an overview of the structure of the rest of the article.
+
+# Related Work
+- Discussion of other possible research questions and other possible empirical methods for this area of interest.
+- Mention and cite related studies in this area.
+
+# Method
+- Description of the most important considerations for the questionnaire’s de-sign (incl. discussion of problems): Formulation and order of questions, scale types, relevance as to the hypotheses
+- Short description of the recruitment method for participants, including a characterization of your target group.
+
+# Data Analysis & Results
+- Number and characterization of respondents.
+- Description of the approach for the data validation and analysis, short explanation of important scripts you used.
+- Description of the considerations and the results of your search for scientific statements and correlations; possibly with quantitative results and/or graphic visualizations.
+
+# Conclusions
+- Summary of the most important insights from the analysis and answer to the research question with respect to your hypotheses. If answering your research question is not possible, discuss why.
+- Discussion of the threats to validity and the survey’s shortcomings as well as evaluation of credibility and relevance.
+
+# Reflection
+(not usually part of research papers)
+- What did you learn from (or became aware of during) this project with respect to: choice and formulation of a research question, drafting and implementation of a questionnaire, recruitment of participants, data collection, evaluation, and drawing of conclusions?
+- Evaluate your approach in view of the general approach for empiricism(see http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-EMPIR-2018/11_generic_method.pdf)
+
+# Attachments
+## Recruitment Letter
+```{r, fig.align='center', fig.cap='Social Media Poster als Recruitment Letter'}
+knitr::include_graphics('img/poster.png')
+```
+## Questionnaire
+## Raw data and analyses scripts
+```{r, comment = ''}
+knitr::kable(umfrage, caption = params$csv_file)
+```
