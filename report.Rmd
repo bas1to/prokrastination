@@ -1,31 +1,43 @@
 ---
-title: "Untitled"
-output: github_document
+title: "Ablenkung in Prüfungsphasen "
+author: "Katharina Müller, Lilli Schmidt, Bastian Breibert, Ailis Oßwald"
+date: "`r Sys.Date()`"
+output: 
+  github_document:
+    toc: true
+    toc_depth: 2
 params:
   csv_file: umfrageonline_final.csv
+  kat: kategorien.csv
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning = FALSE, error = FALSE)
 ```
 
-## GitHub Documents
-
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
-
-
-```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=FALSE, fig.show = "hide"}
+```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=FALSE, fig.keep = "none"}
 ```
 
-```{r, comment = ''}
-knitr::kable(k, caption = 'A caption')
-```
 
 # Introduction
 - Explanation of the context.
 - Research question: description, justification of relevance, and motivation.
 - State and explain your hypotheses.
 - Give an overview of the structure of the rest of the article.
+
+Die Idee eine Studie über das Thema "Prokrastination" zu machen, entstand aus einer Frage, die sich viele bestimmt schon öfter gestellt haben: "Warum finde ich in der Prüfungszeit immer die besten Serien?"
+Unter Prokrastination versteht man das Verschieben oder Aufschieben von anstehenden Aufgaben oder Tätigkeiten. Darunter fallen auch unnötige Ablenkungsmanöver, die von der Umsetzung der eigentlichen Tätigkeit zeitweise abhalten.
+In dieser Studie betrachten wir Prokrastionation konkret nur während der Prüfungsphase und damit anfallenden Aufgaben, wie für die kommende Prüfung zu lernen.
+Ziel dieser Studie war es die beliebtesten Prokrastinationstätigkeiten herauszufinden und dabei mögliche Unterschiede zwischen verschiedenen Fachbereichen und Studiengängen zu erkennen.
+Dies haben wir folgendermaßen in der Forschungsfrage festgehalten: **Welche Medien nutzen Studierende je Studiengang zur Ablenkung vom Lernen in der Prüfungsphase?**
+Zugegebener Maßen hat diese Forschungsfrage genrell eine eher geringe Relevanz, was allerdings nicht bedeutet, dass sie für uns persönlich irrelevant ist. Prokrastination ist vor allem in der Lernphase bei allen AutorInnen dieser Studie ein bekanntes Thema und es war uns eine willkommene Abwechslung ein für uns so interessantes und greifbares Thema das Semester über zu verfolgen. 
+Da diese Studie aber aus dem Zweck entstanden ist das Format der Umfrage zu erlernen und zu üben, muss sie keine hohe Relevanz haben. Allerdings könnte diese Studie für Bereiche aus dem Marketing interessant sein, die ihre Produkte und Dienstleistungen dann möglicherweise gezielter an Studierende vermarkten könnten. 
+
+Wir hatten die Hypothese, dass *Studierende verschiedener Fachbereiche unterschiedliche Ablenkungsmanöver nutzen*. Aufgrund der Unterschiedlichkeit der Fachbereiche und der verschiedenen Interessen der Studierenden dort, nahme wir an, dass sich das im Prokrastinationsverhalten widerspiegeln würde.  
+
+
+Im folgenden werden zuerst ähnliche Studien genannt, anschließend wird die für diese Studie genutzte Methode näher erläutert. Nach der Daten Analyse stellen wir unsere Schlussfolgerungen und Ergebnisse der Studie vor, gefolgt von einer Reflektion, in welcher darauf eingegangen wird, was wie gut funktioniert hat oder eben auch nicht.
+
 
 # Related Work
 - Discussion of other possible research questions and other possible empirical methods for this area of interest.
@@ -40,6 +52,35 @@ knitr::kable(k, caption = 'A caption')
 - Description of the approach for the data validation and analysis, short explanation of important scripts you used.
 - Description of the considerations and the results of your search for scientific statements and correlations; possibly with quantitative results and/or graphic visualizations.
 
+## Qualitative Analyse
+Rohdaten:
+```{r, comment = ''}
+geheimtipps = delete.empty.rows(umfrage, "Textfeld")
+knitr::kable(geheimtipps$Textfeld)
+```
+
+Als Wordcloud:
+```{r, fig.align='center', fig.cap='Wordcloud für die genannten Prokrastinationseheimtipps'}
+knitr::include_graphics('img/wordcloud.png')
+```
+
+TODO: Kategorienbildung erklären
+```{r, fig.align='center', fig.cap='Gruppierte Prokrastinationsgeheimtipps'}
+knitr::include_graphics('img/gruppierung_geheimtipps.PNG')
+```
+
+Resultierende Kategorien:
+```{r, comment = ''}
+kats = my.read.csv(params$kat)
+levels(kats$Kategorien)
+```
+
+Häufigkeit der Kategorien:
+```{r, fig.align = 'center', comment = '', fig.keep = "none"}
+plot.for.categories()
+```
+
+
 # Conclusions
 - Summary of the most important insights from the analysis and answer to the research question with respect to your hypotheses. If answering your research question is not possible, discuss why.
 - Discussion of the threats to validity and the survey’s shortcomings as well as evaluation of credibility and relevance.
@@ -51,7 +92,7 @@ knitr::kable(k, caption = 'A caption')
 
 # Attachments
 ## Recruitment Letter
-```{r, fig.align='center', fig.cap='Social Media Poster als Recruitment Letter'}
+```{r, fig.align='center', fig.height=4, fig.width=3, fig.cap='Social Media Poster als Recruitment Letter'}
 knitr::include_graphics('img/poster.png')
 ```
 ## Questionnaire
@@ -59,3 +100,4 @@ knitr::include_graphics('img/poster.png')
 ```{r, comment = ''}
 knitr::kable(umfrage, caption = params$csv_file)
 ```
+TODO: Scripts anhängen
