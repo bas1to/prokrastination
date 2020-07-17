@@ -1,7 +1,7 @@
 Ablenkung in Prüfungsphasen
 ================
 Katharina Müller, Lilli Schmidt, Bastian Breibert, Ailis Oßwald
-2020-07-12
+2020-07-17
 
   - [Introduction](#introduction)
   - [Related Work](#related-work)
@@ -66,6 +66,19 @@ was wie gut funktioniert hat oder eben auch nicht.
   - Discussion of other possible research questions and other possible
     empirical methods for this area of interest.
   - Mention and cite related studies in this area.
+
+grobe Notes für später - generell gab es keine genau passende Studien -
+viele Studien mit demselben Kontext - Research Thema aber eher wie
+beeinflusst prokrastination die Leistung in Klausuren, wie viel
+prokrastination, Art der Prokrastination(geplant, ungeplant) Welche
+Gründe hat prokrastination? Warum tut man dies? - oft auch Zeit
+projrastiniert mit exam Leistung vrglichen - Angewandte Methoden dabei
+waren INterviews, Fallstudien, quasi? Experimente - womit genau
+prokrastiniert wird bzw. wie viel womit und mit welchen medien wurde
+nicht untersucht man zitiert so:
+(<span class="citeproc-not-found" data-reference-id="smith04">**???**</span>;
+<span class="citeproc-not-found" data-reference-id="doe99">**???**</span>).
+und die Bib Datei muss im selben Verzeichnis wie der rest hier liegen
 
 # Method
 
@@ -139,11 +152,11 @@ Als Wordcloud:
 
 <div class="figure" style="text-align: center">
 
-<img src="img/wordcloud.png" alt="Wordcloud für die genannten Prokrastinationseheimtipps"  />
+<img src="img/wordcloud.png" alt="Wordcloud für die genannten Prokrastinationsgeheimtipps" width="75%" />
 
 <p class="caption">
 
-Wordcloud für die genannten Prokrastinationseheimtipps
+Wordcloud für die genannten Prokrastinationsgeheimtipps
 
 </p>
 
@@ -153,7 +166,7 @@ TODO: Kategorienbildung erklären
 
 <div class="figure" style="text-align: center">
 
-<img src="img/gruppierung_geheimtipps.PNG" alt="Gruppierte Prokrastinationsgeheimtipps"  />
+<img src="img/gruppierung_geheimtipps.PNG" alt="Gruppierte Prokrastinationsgeheimtipps" width="75%" />
 
 <p class="caption">
 
@@ -181,6 +194,7 @@ Resultierende Kategorien:
 ```
 
 Häufigkeit der Kategorien:
+<img src="report_files/figure-gfm/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
 
 # Conclusions
 
@@ -197,7 +211,7 @@ became aware of during) this project with respect to: choice and
 formulation of a research question, drafting and implementation of a
 questionnaire, recruitment of participants, data collection, evaluation,
 and drawing of conclusions? - Evaluate your approach in view of the
-general approach for empiricism(see
+general approach for empiricism (see
 <http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-EMPIR-2018/11_generic_method.pdf>)
 
 # Attachments
@@ -206,7 +220,7 @@ general approach for empiricism(see
 
 <div class="figure" style="text-align: center">
 
-<img src="img/poster.png" alt="Social Media Poster als Recruitment Letter"  />
+<img src="img/poster.png" alt="Social Media Poster als Recruitment Letter" width="75%" />
 
 <p class="caption">
 

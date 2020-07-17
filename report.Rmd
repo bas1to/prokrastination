@@ -9,13 +9,14 @@ output:
 params:
   csv_file: umfrageonline_final.csv
   kat: kategorien.csv
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning = FALSE, error = FALSE)
 ```
 
-```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=FALSE, fig.keep = "none"}
+```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=FALSE}
 ```
 
 
@@ -43,6 +44,16 @@ Im folgenden werden zuerst ähnliche Studien genannt, anschließend wird die fü
 - Discussion of other possible research questions and other possible empirical methods for this area of interest.
 - Mention and cite related studies in this area.
 
+grobe Notes für später
+- generell gab es keine genau passende Studien
+- viele Studien mit demselben Kontext
+- Research Thema aber eher wie beeinflusst prokrastination die Leistung in Klausuren, wie viel prokrastination, Art der Prokrastination(geplant, ungeplant) Welche Gründe hat prokrastination? Warum tut man dies?
+- oft auch Zeit projrastiniert mit exam Leistung vrglichen
+- Angewandte Methoden dabei waren INterviews, Fallstudien, quasi? Experimente
+- womit genau prokrastiniert wird bzw. wie viel womit und mit welchen medien wurde nicht untersucht
+man zitiert so: [@smith04; @doe99].
+und die Bib Datei muss im selben Verzeichnis wie der rest hier liegen
+
 # Method
 - Description of the most important considerations for the questionnaire’s de-sign (incl. discussion of problems): Formulation and order of questions, scale types, relevance as to the hypotheses
 - Short description of the recruitment method for participants, including a characterization of your target group.
@@ -60,12 +71,12 @@ knitr::kable(geheimtipps$Textfeld)
 ```
 
 Als Wordcloud:
-```{r, fig.align='center', fig.cap='Wordcloud für die genannten Prokrastinationseheimtipps'}
+```{r, fig.align='center', out.width="75%", fig.cap='Wordcloud für die genannten Prokrastinationsgeheimtipps'}
 knitr::include_graphics('img/wordcloud.png')
 ```
 
 TODO: Kategorienbildung erklären
-```{r, fig.align='center', fig.cap='Gruppierte Prokrastinationsgeheimtipps'}
+```{r, fig.align='center', out.width="75%", fig.cap='Gruppierte Prokrastinationsgeheimtipps'}
 knitr::include_graphics('img/gruppierung_geheimtipps.PNG')
 ```
 
@@ -76,7 +87,7 @@ levels(kats$Kategorien)
 ```
 
 Häufigkeit der Kategorien:
-```{r, fig.align = 'center', comment = '', fig.keep = "none"}
+```{r, fig.align = 'center', comment = ''}
 plot.for.categories()
 ```
 
@@ -88,11 +99,12 @@ plot.for.categories()
 # Reflection
 (not usually part of research papers)
 - What did you learn from (or became aware of during) this project with respect to: choice and formulation of a research question, drafting and implementation of a questionnaire, recruitment of participants, data collection, evaluation, and drawing of conclusions?
-- Evaluate your approach in view of the general approach for empiricism(see http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-EMPIR-2018/11_generic_method.pdf)
+- Evaluate your approach in view of the general approach for empiricism
+(see http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-EMPIR-2018/11_generic_method.pdf)
 
 # Attachments
 ## Recruitment Letter
-```{r, fig.align='center', fig.height=4, fig.width=3, fig.cap='Social Media Poster als Recruitment Letter'}
+```{r, fig.align='center', out.width="75%", fig.cap='Social Media Poster als Recruitment Letter'}
 knitr::include_graphics('img/poster.png')
 ```
 ## Questionnaire
