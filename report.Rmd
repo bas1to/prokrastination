@@ -42,18 +42,27 @@ Im folgenden werden zuerst ähnliche Studien genannt, anschließend wird die fü
 
 
 # Related Work
-- Discussion of other possible research questions and other possible empirical methods for this area of interest.
-- Mention and cite related studies in this area.
++ Discussion of other possible research questions and other possible empirical methods for this area of interest.
++ Mention and cite related studies in this area.
 
-grobe Notes für später
-- generell gab es keine genau passende Studien
-- viele Studien mit demselben Kontext
-- Research Thema aber eher wie beeinflusst prokrastination die Leistung in Klausuren, wie viel prokrastination, Art der Prokrastination(geplant, ungeplant) Welche Gründe hat prokrastination? Warum tut man dies?
-- oft auch Zeit projrastiniert mit exam Leistung vrglichen
-- Angewandte Methoden dabei waren INterviews, Fallstudien, quasi? Experimente
-- womit genau prokrastiniert wird bzw. wie viel womit und mit welchen medien wurde nicht untersucht
-man zitiert so: [@smith04; @doe99].
-und die Bib Datei muss im selben Verzeichnis wie der rest hier liegen
+Bei einer eher oberflächlichen Literaturrecherche, aufgrund mangelnder Zeit haben wir keine zu unserer Studienfrage sehr ähnliche Studienfrage finden können, allerdings gibt es zum Thema Prokrastination eine Vielzahl an Studien.
+Zum Thema Prokrastination werden zumeist Fragen beantwortet, die den Einfluss von Prokrastination auf die Leistung untersuchen. 
+So erforschen einige Studien wie sich die Leistung im Verhältnis mit der Zeit, die Prokrastiniert wurde verändert [@levy2012chais] [pychyl2000procrastination] und ob es dabei Unterschiede zwischen virtuellen Online Kursen und Anwesenheitskursen gibt [@yilmaz2017relation]. 
+Dies geschieht beispielsweise in Form von Quasi Experimenten [@levy2012chais] [@yilmaz2017relation]. 
+Eine weitere Umfragen-Studie erforscht in wie weit sich die Leistungen von Lernenden mit geplanten Lernverzögerungen sich von denen mit ungeplanten Lernverzögerungen unterscheiden [lindblom2015academic].
+Und es gibt ebenso Studien, welche mithilfe einer Umfrage erforschen, wie Prokrastinationsverhalten gemindert werden könnte [@kristanto2016decisional].
+
+Andere Mögliche Studienfragen, die häufiger bereits untersucht wären behandeln die Auswirkungen von Prokrastinaiton auf die Leistung, oft von Lernenden Personen.
+Wir wollten eher erforschen womit und wie sich vom Lernen abgelenkt wird. Mögliche andere Forschungsfragen für uns wären gewesen:
+Mit welchen sozialen Medien lenken sich Studierende ab? Mit welchen Streaming Diensten lenken sich Studierende ab? 
+Allerdings wäre bei beiden dieser Fragen der Schwerpunkt eher auf genau dem abgefargtem Medium gelegen, mit welchem sich Studierende ablenken.
+Dies würde kein gesamtes Bild über das prokrastinationsverhalten der Studierenden ergeben, was eine höhere Relevanz für uns hat.
+
+Im Rahmen des Kurses haben wir die Forschungsfrage und das Thema für eine Umfrage ausgewählt.
+Eine weitere Denkbare Methode für unsere Forschungsfrage, wäre das Quasi-Experiment.
+In dem bspw. die Zeiten die Studierende mit verschiedenen Prokrastinationstätigkeiten verbringen, während ihrer Prüfungslernphase, dokumentiert werden würden.
+Allerdings wäre diese Methode erheblich aufwendiger, wenn auch möglicherweise in den Ergebnissen ertragreicher und vor allem genauer.
+
 
 # Method
 Aufbauend auf der oben festgelegten Hypothese und Forschungsfrage, war der erste Schritt das Festlegen unserer Operationalität. Diese besteht aus einer gemessenen Variablen, die Messungsart sowie einem Interpretationsplan für die Ergebnisse der Messung. 
