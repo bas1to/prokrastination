@@ -215,6 +215,10 @@ Und eine neue ToWatch List!
 - Evaluate your approach in view of the general approach for empiricism
 (see http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-EMPIR-2018/11_generic_method.pdf)
 
+-> Fragen formulieren ist wichtig
+-> Mann muss hinterher sein um die Leute zu erreichen 
+-> 
+
 # Attachments
 ## Recruitment Letter
 ```{r, fig.align='center', out.width="75%", fig.cap='Social Media Poster als Recruitment Letter'}
