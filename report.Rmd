@@ -20,7 +20,8 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning = FALSE, error = FALS
 ```
 ```{r, code = readLines("create_Datatable.R"), echo=FALSE}
 ```
-
+```{r, code = readLines("wordcloud.R"), echo=FALSE}
+```
 # Einführung
 
 Die Idee eine Studie über das Thema "Prokrastination" zu machen, entstand aus einer Frage, die sich viele bestimmt schon öfter gestellt haben: "Warum finde ich in der Prüfungszeit immer die besten Serien?"
@@ -198,8 +199,8 @@ create_dt(as.data.frame(geheimtipps$Textfeld), coln = "Geheimtipps", cap = "Prok
 ```
 
 Als Wordcloud:
-```{r, fig.align='center', out.width="75%", fig.cap='Wordcloud für die genannten Prokrastinationsgeheimtipps'}
-knitr::include_graphics('img/wordcloud.png')
+```{r}
+word.cloud(params$csv_file, "Textfeld")
 ```
 
 TODO: Kategorienbildung erklären
@@ -215,7 +216,7 @@ levels(kats$Kategorien)
 
 Häufigkeit der Kategorien:
 ```{r, fig.align = 'center', comment = ''}
-plot.for.categories()
+plot.for.categories("Häufigkeit")
 ```
 
 

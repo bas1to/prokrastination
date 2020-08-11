@@ -2,10 +2,10 @@ library(tidyverse)
 library(reshape2)
 library(data.table)
 
-plot.for.categories = function(){
+plot.for.categories = function(ylab.text){
   w = my.read.csv("kategorien.csv")
   ggplot(data = w) + geom_bar(mapping = aes(x = Kategorien)) + coord_flip() +
-    ggtitle("Geheimtippskategorien") + ylab("Haeufigkeit") + xlab("Kategorien")
+    ggtitle("Geheimtippskategorien") + ylab(ylab.text) + xlab("Kategorien")
 }
 
 my.read.csv = function(file.name) {
