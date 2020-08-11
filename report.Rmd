@@ -117,23 +117,25 @@ colnames = c("MINT", "Medizin", "Kulturwiss.", "Lehramt", "Jura/BWL", "Sozialwis
 create_dt(data, rownames, colnames, "Tabelle 1:", "Liebste Prokrastinationstätigkeiten (Top 3) nach Studienbereich")
 ```
 
+
+## So lenken sich die versch. Fachbereiche vom Lernen ab
+
 ```{r}
 plot.studyfields(c(17:28), "fill", "Häufigkeit (Prozent)")
 ```
-
-
-## So lenken sich die versch. Fachbereich vom lernen ab
-
- ![Alt text](../prokrastination/Images/Picture8.png)
 Übersicht wie sich versch. Fachbereiche ablenken (TOP 3)
 Videos, Smartphone und Essen generell oft vertreten
 Eher wenig Shopping
 
- ![Alt text](../prokrastination/Images/Picture7.png)
+```{r}
+plot.studyfields(c(17:28), "dodge", "Häufigkeit (Anzahl)")
+```
 Zu beachten: Mathe, informatik und Naturwissenschaften viele - andere eher weniger TN
 
 ## Charakterisierung der Studienteilnehmer
- ![Alt text](../prokrastination/Images/Picture6.png)
+```{r, fig.align='center', out.width="75%"}
+knitr::include_graphics('Images/Picture6.png')
+```
 -Aus den 81 sortieren Teilnehmern sind: 
 -Davon 43% Mathe, Inf un Naturwissenschaften
 -Alle anderen Fächer so bis zu 10% ca
@@ -142,20 +144,28 @@ Zu beachten: Mathe, informatik und Naturwissenschaften viele - andere eher wenig
 -Durch geringe Anzahl der Teilnehmer nur Aussagen über 2 Fachbereiche möglich
 
 
-## Social Media Services
- ![Alt text](../prokrastination/Images/Picture5.png)
+## Social-Media-Services
+```{r, fig.align='center', out.width="75%"}
+knitr::include_graphics('Images/Picture5.png')
+```
 -Social-Media Nutzer: 23 ( approx. 27%)
 -idR. werden meistens mehrere Services gleichzeitig genutzt
 -Instagram wird am meisten genutzt
 
 
-## Streaming Dienste
- ![Alt text](../prokrastination/Images/Picture4.png)
+## Streaming-Dienste
+```{r, fig.align='center', out.width="75%"}
+knitr::include_graphics('Images/Picture4.png')
+```
 -Youtube und Netflix werden sehr häufig genutzt, auch zusammen
 -Ansonsten bunter Mix
 
 ## Leistungszufriedenheit vs. Prokrastinationszeit
- ![Alt text](../prokrastination/Images/Picture3.png)
+
+```{r}
+plot.zufried.vs.zeit()
+```
+ 
 
 Wie viel man prokrastiniert scheint keinen Effekt auf die Zufriedenheit mit den Prüfungsergebnissen zu haben
 -Meistens sind die Leute zufrieden bzw. Bewerten sich als ausreichend
@@ -164,13 +174,19 @@ Wie viel man prokrastiniert scheint keinen Effekt auf die Zufriedenheit mit den 
 
 
 ## Verändert sich die Prokrastination zwischen Bachelor und Master? 
- ![Alt text](../prokrastination/Images/Picture2.png)
+```{r}
+plot.abschluss.prokrastination(c(4:15), "fill", "Häufigkeit (Prozent)")
+```
+
 -Unterscheidet sich kaum
 -Auch bei der Frage ob sich das Prokrastinationsverhalten dieser Prüfungsphase zu letzter verändert hat wurde zu ⅔ “nein” angegeben
 
+```{r}
+plot.abschluss.prokrastination(c(4:15), "dodge", "Häufigkeit (Anzahl)")
+```
 
- ![Alt text](../prokrastination/Images/Picture1.png)
 Bachelor/Master haben genug  Teilnehmer um die Angaben vergleichbar zu machen - Staatsexamen eig zu wenig
+
 
 
 
@@ -293,23 +309,34 @@ Ein fröhliches Ende zum Survey.
 Um den Teilnehmern die Möglichkeit zu bieten die Auswertung selbst zu begutachten. 
 
 
-# Rohdaten und Auswertungsskript
+## Rohdaten und Auswertungsskripte
+
+### Rohdaten
 ```{r}
 create_dt(umfrage, cap = params$csv_file)
 ```
+
+### Zusammenhang zwischen Demographie und Prokrastination
 
 ```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=TRUE, eval = FALSE}
 
 ```
 
-```{r, code = readLines("create_Datatable.R"), echo=TRUE, eval = FALSE}
-
-```
+### Venn-Diagramme
 
 ```{r, code = readLines("VennDiagrams.R"), echo=TRUE, eval = FALSE}
 
 ```
+### Wordcloud
 
 ```{r, code = readLines("wordcloud.R"), echo=TRUE, eval = FALSE}
 
 ```
+
+### Tabellenformatierung
+
+```{r, code = readLines("create_Datatable.R"), echo=TRUE, eval = FALSE}
+
+```
+
+## Literaturverzeichnis
