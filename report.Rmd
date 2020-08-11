@@ -210,14 +210,20 @@ Und eine neue ToWatch List!
 
 
 # Reflection
-(not usually part of research papers)
-- What did you learn from (or became aware of during) this project with respect to: choice and formulation of a research question, drafting and implementation of a questionnaire, recruitment of participants, data collection, evaluation, and drawing of conclusions?
-- Evaluate your approach in view of the general approach for empiricism
-(see http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-EMPIR-2018/11_generic_method.pdf)
+Die Forschungsfrage ist ein viel wichtiger Teil der Studie wie gedacht. Sie muss präzise formuliert werden und sehr gut durchdacht sein, um die gewollte Antwort zu erzielen. Vor dem Projekt war uns nicht klar wie schwierig solch eine Formulierung sein kann und wie wichtig, sie dennoch ist. Zusätzlich ist uns im Nachhinein Aufgefallen, dass wir eine sehr offene Frage hatten die in einem Qualitative Umfeld möglicherweise besser auszuwerten wäre. 
 
--> Fragen formulieren ist wichtig
--> Mann muss hinterher sein um die Leute zu erreichen 
--> 
+Die Formulierung des Questionnaires ergab sich als komplexer wie wir Anfangs gedacht haben, uns war auch die Auswertung des Entwurfs sehr Hilfreich.
+Im Nachhinein ist uns aufgefallen, dass wir die Fragen und ihre Auswahl weiter präzisieren hätten können. Wir hatten drei Fragen welche wir durch die Formulierung nicht auswerten konnten und weitere Fragen die limitiert statistisch auswertbar waren.
+Wir hätten beispielsweise bei unserer Top-3-Prokrastitationsmethode eher eine Top-1-Frage machen können oder mittels der Likertskala abhängige Vertiefungsfragen stellen können. Zur Analyse der Häufigkeit wäre auch interessant gewesen, eine Reihenfolge-basierte Rangliste zu erfragen. Dann hätten wir sehen können, welches der Prokrastinationsmethoden meisten als Top-1-Auswahl gewählt wurde. Wir hätten auch die Frage zum Prokastinationsverhalten weiter aufteilen können um genauere Antworten zu erzielen und unsere Verallgemeinerbarkeit besser zu bestätigen. 
+
+Unsere Wahl die Recruitment Letter als Poster bzw. Social-Media Poster fanden wir eigentlich sehr gut, und ist von Teilnehmern und Testern immer sehr positiv empfunden worden. Im Nachhinein war es jedoch ein Fehler nur Social-Media basiert nach Teilnehmern zu suchen, im Vergleich zu anderen Studien, welche E-Mail Verteiler nutzten, hatten wir eine kleinere Anzahl an Teilnehmern. Zusätzlich waren die Social-Media Seiten anderer Fachbereiche und Universitäten gegen die Verteilung von Posts von fach-/universitätsfremden Studierenden. 
+In einem Anwesenheitssemester bestünde die Option, die Poster auszudrucken und an verschiedene Fachbereich zu Verteilen, dies hätte unsere Teilnehmerzahlen für Fachbereich außerhalb der Mathematik und Informatik möglicherweise erhöht. 
+
+Die Datensammlung bei Umfragen ist recht simpel im Vergleich zu anderen Methoden ("Abwarten und Tee trinken"). Das Einzige, was man hier wirklich beachten sollte, ist die Wahl des Umfragetools, denn hier sind manche stärker als andere oder kosten vielleicht etwas, was für ein kleines Uni-Projekt eher nicht in Frage kommt. Wir sind mit Umfrageonline sehr zufrieden und können es weiterempfehlen, denn für Studierende ist es kostenlos und die wichtigsten Kriterien, dass man automatisch eine formatierte csv-Datei herunterladen kann und keine Datenpunkte verloren gehen, sind gegeben. Man sollte jedoch beachten, dass verschiedene Umfragetools Fragestrukurierungsmöglichkeiten besitzen, die somit die Datensammlungs- und damit auch Auswertemöglichkeiten limitieren.
+
+Die Evaluation mit R war sehr interessant und herausfordernd durch die Vielzahl an Tools, Packages und nativer Möglichkeiten. Somit war die Auswahl des richtigen Werkzeugs für die Auswertung eine komplexe Angelegenheit. Oft haben wir das passende Werkzeug erst nach der Präsentation der Ergebnisse gefunden (z.B. das Wordcloud-Package). Zusätzlich haben unsere Datensätze die Evaluation auf Häufigkeitsanalysen begrenzt, hier hätten präzisere Fragen, bestimmt weitere Möglichkeiten erschaffen.  
+
+Insgesamt haben wir gelernt, wie wichtig eine hohe und diverse Anzahl an Teilnehmenden ist, damit überhaupt die Forschungsfrage beantworten werden kann und Schlüsse daraus gezogen werden können. Somit sind unsere Schlussfolgerungen hier sehr mit Vorsicht zu betrachten.
 
 # Attachments
 ## Recruitment Letter
