@@ -60,6 +60,8 @@ make.studyfields.data = function(cols){
 # @param ylab.text : text for vertical axis
 plot.studyfields = function(cols, pos, ylab.text){
   fields = make.studyfields.data(cols)
+  dimnames(fields)[[1]] = c("Videos", "Phone", "Bett", "Essen", "Haushalt", "Kreatives Hobby", "Shoppen", "Ausgehen", 
+                            "Computerspiele", "Social Media", "Sonstiges")
   fields_DT = setDT(as.data.frame(fields), keep.rownames = T)[]
   names(fields_DT)[2:9] <- c("MINT", "Medizin", "Geistes- und Kulturwiss.", "Lehramt", "Jura/Wirtschaft", "Sozialwiss.", "Musik/Kunst", "Ingenieurwiss.")
   fields_data <- melt(fields_DT)
