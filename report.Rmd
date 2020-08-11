@@ -22,10 +22,6 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning = FALSE, error = FALS
 ```
 
 # Introduction
-- Explanation of the context.
-- Research question: description, justification of relevance, and motivation.
-- State and explain your hypotheses.
-- Give an overview of the structure of the rest of the article.
 
 Die Idee eine Studie über das Thema "Prokrastination" zu machen, entstand aus einer Frage, die sich viele bestimmt schon öfter gestellt haben: "Warum finde ich in der Prüfungszeit immer die besten Serien?"
 Unter Prokrastination versteht man das Verschieben oder Aufschieben von anstehenden Aufgaben oder Tätigkeiten. Darunter fallen auch unnötige Ablenkungsmanöver, die von der Umsetzung der eigentlichen Tätigkeit zeitweise abhalten.
@@ -42,8 +38,6 @@ Im folgenden werden zuerst ähnliche Studien genannt, anschließend wird die fü
 
 
 # Related Work
-+ Discussion of other possible research questions and other possible empirical methods for this area of interest.
-+ Mention and cite related studies in this area.
 
 Bei einer eher oberflächlichen Literaturrecherche, aufgrund mangelnder Zeit haben wir keine zu unserer Studienfrage sehr ähnliche Studienfrage finden können, allerdings gibt es zum Thema Prokrastination eine Vielzahl an Studien.
 Zum Thema Prokrastination werden zumeist Fragen beantwortet, die den Einfluss von Prokrastination auf die Leistung untersuchen. 
@@ -191,8 +185,6 @@ plot.for.categories()
 
 
 # Conclusions
-- Summary of the most important insights from the analysis and answer to the research question with respect to your hypotheses. If answering your research question is not possible, discuss why.
-- Discussion of the threats to validity and the survey’s shortcomings as well as evaluation of credibility and relevance.
 
 Für diese Studie ist es schwer eine spezifische Schlussfolgerung zu treffen zu der Ablenkung nach Fachbereich, denn wir hatten großteilig nur Teilnehmer aus den MINT-Fächern. Dementsprechend sind unsere Ergebnisse davon beeinflusst und weisen einen Bias auf. Denn die sechs Teilnehmer:innen des Fachbereich Musik, Kunst und Gestaltung, sind nicht aussagekräftig genug über den gesamten Fachbereich. Dementsprechend fehlt es an der Verallgemeinerbarkeit unserer Ergebnisse. Zusätzlich ist ein Vergleich mit den Antworten der 42 Teilnehmer*innen aus dem Fachbereich Mathematik, Informatik und Naturwissenschaften nicht proportional und verringert die Validität unserer Auswertung. 
 Wir können jedoch aus der Analyse sehen, dass alle Fachbereiche prokrastinieren und dabei viele verschiedene Möglichkeiten nutzen. 
@@ -284,12 +276,8 @@ Um den Teilnehmern die Möglichkeit zu bieten die Auswertung selbst zu begutacht
 ```{r}
 create_dt(umfrage, cap = params$csv_file)
 ```
-TODO: Scripts anhängen
 
 # Scripts
-```{r, include=TRUE, echo = TRUE}
-x = 3
-```
 
 ```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=TRUE, eval = FALSE}
 
