@@ -104,6 +104,11 @@ colnames = c("MINT", "Medizin", "Kulturwiss.", "Lehramt", "Jura/BWL", "Sozialwis
 create_dt(data, rownames, colnames, "Tabelle 1:", "Liebste Prokrastinationstätigkeiten (Top 3) nach Studienbereich")
 ```
 
+```{r}
+plot.studyfields(c(17:28), "fill", "Häufigkeit (Prozent)")
+```
+
+
 ##So lenken sich die versch. Fachbereich vom lernen ab
 
  ![Alt text](../prokrastination/Images/Picture8.png)
@@ -290,3 +295,24 @@ Um den Teilnehmern die Möglichkeit zu bieten die Auswertung selbst zu begutacht
 create_dt(umfrage, cap = params$csv_file)
 ```
 TODO: Scripts anhängen
+
+# Scripts
+```{r, include=TRUE, echo = TRUE}
+x = 3
+```
+
+```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=TRUE, eval = FALSE}
+
+```
+
+```{r, code = readLines("create_Datatable.R"), echo=TRUE, eval = FALSE}
+
+```
+
+```{r, code = readLines("VennDiagrams.R"), echo=TRUE, eval = FALSE}
+
+```
+
+```{r, code = readLines("wordcloud.R"), echo=TRUE, eval = FALSE}
+
+```
