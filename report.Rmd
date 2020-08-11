@@ -105,8 +105,23 @@ create_dt(data, rownames, colnames, "Tabelle 1:", "Liebste Prokrastinationstäti
 ```
 
 
-Verändert sich die Prokrastination zwischen Bachelor und Master? 
- ![Alt text](../prokrastination/Images/Picture 1.png)
+
+##Leistungszufriedenheit vs. Prokrastinationszeit
+ ![Alt text](../prokrastination/Images/Picture3.png)
+
+Wie viel man prokrastiniert scheint keinen Effekt auf die Zufriedenheit mit den Prüfungsergebnissen zu haben
+-Meistens sind die Leute zufrieden bzw. Bewerten sich als ausreichend
+-Aber bei ausreichend haben Leute generell mehr prokrastiniert als bei zufriedenstellend
+
+
+
+##Verändert sich die Prokrastination zwischen Bachelor und Master? 
+ ![Alt text](../prokrastination/Images/Picture2.png)
+-Unterscheidet sich kaum
+-Auch bei der Frage ob sich das Prokrastinationsverhalten dieser Prüfungsphase zu letzter verändert hat wurde zu ⅔ “nein” angegeben
+
+
+ ![Alt text](../prokrastination/Images/Picture1.png)
 Bachelor/Master haben genug  Teilnehmer um die Angaben vergleichbar zu machen - Staatsexamen eig zu wenig
 
 
@@ -144,6 +159,18 @@ plot.for.categories()
 - Summary of the most important insights from the analysis and answer to the research question with respect to your hypotheses. If answering your research question is not possible, discuss why.
 - Discussion of the threats to validity and the survey’s shortcomings as well as evaluation of credibility and relevance.
 
+##Schlussfolgerungen - Ablenkung nach Fachbereich
+Geringe Teilnehmer Zahl, viele aus dem MINT Bereich
+Kaum Verteilung des Recruitment Letters über Uni-Kanäle
+Keine aussagekräftigen Ergebnisse
+Fachbereiche scheinen generell versch. Möglichkeiten zu nutzen
+Bei den Top Prokrastinationstätigkeiten zeichnen sich Trends ab
+Generell viel Video, Smartphone und Essen
+Generell wenig Shopping
+Social Media Dienste werden meist parallel genutzt
+Bei den Streaming Diensten werden vor allem Youtube und Netflix genutzt
+
+##Schlussfolgerung-Generell
 -Wie viel man Prokrastiniert scheint generell keinen Einfluss auf die Zufriedenheit der Prüfungsergebnisse zu haben
 Die meisten Teilnehemer sind zufrieden mit Ihren Ergebnissen
 
