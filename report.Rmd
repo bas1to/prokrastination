@@ -105,6 +105,12 @@ create_dt(data, rownames, colnames, "Tabelle 1:", "Liebste Prokrastinationstäti
 ```
 
 
+Verändert sich die Prokrastination zwischen Bachelor und Master? 
+ ![Alt text](../prokrastination/Images/Picture 1.png)
+Bachelor/Master haben genug  Teilnehmer um die Angaben vergleichbar zu machen - Staatsexamen eig zu wenig
+
+
+
 ## Qualitative Analyse
 Rohdaten:
 ```{r, comment = ''}
@@ -137,6 +143,14 @@ plot.for.categories()
 # Conclusions
 - Summary of the most important insights from the analysis and answer to the research question with respect to your hypotheses. If answering your research question is not possible, discuss why.
 - Discussion of the threats to validity and the survey’s shortcomings as well as evaluation of credibility and relevance.
+
+-Wie viel man Prokrastiniert scheint generell keinen Einfluss auf die Zufriedenheit der Prüfungsergebnisse zu haben
+Die meisten Teilnehemer sind zufrieden mit Ihren Ergebnissen
+
+-Wir sind auf die nächste Prüfungsphase gut vorbereitet aufs Prokrastinieren!
+Neue Geheimtipps!
+Und eine neue ToWatch List!
+
 
 # Reflection
 (not usually part of research papers)
