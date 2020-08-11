@@ -111,7 +111,6 @@ create_dt(data, rownames, colnames, "Tabelle 1:", "Liebste Prokrastinationstäti
 Videos, Smartphone und Essen generell oft vertreten
 Eher wenig Shopping
 
-
  ![Alt text](../prokrastination/Images/Picture7.png)
 Zu beachten: Mathe, informatik und Naturwissenschaften viele - andere eher weniger TN
 
