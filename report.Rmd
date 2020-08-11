@@ -194,24 +194,14 @@ plot.for.categories()
 - Summary of the most important insights from the analysis and answer to the research question with respect to your hypotheses. If answering your research question is not possible, discuss why.
 - Discussion of the threats to validity and the survey’s shortcomings as well as evaluation of credibility and relevance.
 
-##Schlussfolgerungen - Ablenkung nach Fachbereich
-Geringe Teilnehmer Zahl, viele aus dem MINT Bereich
-Kaum Verteilung des Recruitment Letters über Uni-Kanäle
-Keine aussagekräftigen Ergebnisse
-Fachbereiche scheinen generell versch. Möglichkeiten zu nutzen
-Bei den Top Prokrastinationstätigkeiten zeichnen sich Trends ab
-Generell viel Video, Smartphone und Essen
-Generell wenig Shopping
-Social Media Dienste werden meist parallel genutzt
-Bei den Streaming Diensten werden vor allem Youtube und Netflix genutzt
+Für diese Studie ist es schwer eine spezifische Schlussfolgerung zu treffen zu der Ablenkung nach Fachbereich, denn wir hatten großteilig nur Teilnehmer aus den MINT-Fächern. Dementsprechend sind unsere Ergebnisse davon beeinflusst und weisen einen Bias auf. Denn die sechs Teilnehmer:innen des Fachbereich Musik, Kunst und Gestaltung, sind nicht aussagekräftig genug über den gesamten Fachbereich. Dementsprechend fehlt es an der Verallgemeinerbarkeit unserer Ergebnisse. Zusätzlich ist ein Vergleich mit den Antworten der 42 Teilnehmer*innen aus dem Fachbereich Mathematik, Informatik und Naturwissenschaften nicht proportional und verringert die Validität unserer Auswertung. 
+Wir können jedoch aus der Analyse sehen, dass alle Fachbereiche prokrastinieren und dabei viele verschiedene Möglichkeiten nutzen. 
 
-##Schlussfolgerung-Generell
--Wie viel man Prokrastiniert scheint generell keinen Einfluss auf die Zufriedenheit der Prüfungsergebnisse zu haben
-Die meisten Teilnehemer sind zufrieden mit Ihren Ergebnissen
+Bei den Top-3-Prokrastinationstätigkeiten zeichnen sich Trends ab, bspw. beinhalten die Antworten oft Videos, Smartphones und Essen, jedoch wenig Shopping. Bei den Social-Media-Diensten wurden meist viele parallel genutzt, dies hat sich auch bei den Streaming-Diensten widergespiegelt. Interessant war, dass die Allgemeinen Streaming-Marktführer auch im Survey am meisten verwendet wurden, sowie YouTube und Netflix, alle anderen Dienste waren deutlich weniger vertreten. 
 
--Wir sind auf die nächste Prüfungsphase gut vorbereitet aufs Prokrastinieren!
-Neue Geheimtipps!
-Und eine neue ToWatch List!
+Bei der Auswertung der Beziehung zwischen Prokrastination und Zufriedenheit der Prüfungsleistung, konnte ebenfalls keine genaue Antwort getroffen werden. Nach der Auswertung scheint der eingeschätzte Umfang der Prokrastination keinen Einfluss auf die Zufriedenheit der Prüfungsergebnisse zu haben. Denn die meisten Teilnehmer:innen sind zufrieden mit Ihren Prüfugsergebnissen.
+
+Für weitere Studien wäre es interessant, unsere Studie mit mehr Teilnehmer:innen zu wiederholen sowie mit mehr Teilnehmer:innen aus den verschiedenen Fachbereichen, sodass deren Anteile ungefähr gleichmäßig groß sind. Ebenfalls von Interesse wäre eine spezifischere Studie, die eine der Fragen in unserem Questionnaire vertieft, beispielsweise mit Fokus auf Social Media und Prokrastination, für einen tieferen Einblick. Es wäre auch interessant zu erforschen, ob regional Unterschiede existieren bei der Prokrastination. 
 
 
 # Reflection
