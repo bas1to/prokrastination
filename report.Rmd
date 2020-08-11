@@ -104,7 +104,38 @@ colnames = c("MINT", "Medizin", "Kulturwiss.", "Lehramt", "Jura/BWL", "Sozialwis
 create_dt(data, rownames, colnames, "Tabelle 1:", "Liebste Prokrastinationstätigkeiten (Top 3) nach Studienbereich")
 ```
 
+##So lenken sich die versch. Fachbereich vom lernen ab
 
+ ![Alt text](../prokrastination/Images/Picture8.png)
+Übersicht wie sich versch. Fachbereiche ablenken (TOP 3)
+Videos, Smartphone und Essen generell oft vertreten
+Eher wenig Shopping
+
+
+ ![Alt text](../prokrastination/Images/Picture7.png)
+Zu beachten: Mathe, informatik und Naturwissenschaften viele - andere eher weniger TN
+
+##Charakterisierung der Studienteilnehmer
+ ![Alt text](../prokrastination/Images/Picture6.png)
+-Aus den 81 sortieren Teilnehmern sind: 
+-Davon 43% Mathe, Inf un Naturwissenschaften
+-Alle anderen Fächer so bis zu 10% ca
+-Meisten sind im Bachelor (x%) und Master (y%)
+-Alter der Teilnehmer so bei ca ?
+-Durch geringe Anzahl der Teilnehmer nur Aussagen über 2 Fachbereiche möglich
+
+
+##Social Media Services
+ ![Alt text](../prokrastination/Images/Picture5.png)
+-Social-Media Nutzer: 23 ( approx. 27%)
+-idR. werden meistens mehrere Services gleichzeitig genutzt
+-Instagram wird am meisten genutzt
+
+
+## Streaming Dienste
+ ![Alt text](../prokrastination/Images/Picture4.png)
+-Youtube und Netflix werden sehr häufig genutzt, auch zusammen
+-Ansonsten bunter Mix
 
 ##Leistungszufriedenheit vs. Prokrastinationszeit
  ![Alt text](../prokrastination/Images/Picture3.png)
