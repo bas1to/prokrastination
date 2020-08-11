@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning = FALSE, error = FALS
 ```{r, code = readLines("create_Datatable.R"), echo=FALSE}
 ```
 
-# Introduction
+# Einführung
 
 Die Idee eine Studie über das Thema "Prokrastination" zu machen, entstand aus einer Frage, die sich viele bestimmt schon öfter gestellt haben: "Warum finde ich in der Prüfungszeit immer die besten Serien?"
 Unter Prokrastination versteht man das Verschieben oder Aufschieben von anstehenden Aufgaben oder Tätigkeiten. Darunter fallen auch unnötige Ablenkungsmanöver, die von der Umsetzung der eigentlichen Tätigkeit zeitweise abhalten.
@@ -37,7 +37,7 @@ Wir hatten die Hypothese, dass *Studierende verschiedener Fachbereiche unterschi
 Im folgenden werden zuerst ähnliche Studien genannt, anschließend wird die für diese Studie genutzte Methode näher erläutert. Nach der Daten Analyse stellen wir unsere Schlussfolgerungen und Ergebnisse der Studie vor, gefolgt von einer Reflektion, in welcher darauf eingegangen wird, was wie gut funktioniert hat oder eben auch nicht.
 
 
-# Related Work
+# Verwandte Studien
 
 Bei einer eher oberflächlichen Literaturrecherche, aufgrund mangelnder Zeit haben wir keine zu unserer Studienfrage sehr ähnliche Studienfrage finden können, allerdings gibt es zum Thema Prokrastination eine Vielzahl an Studien.
 Zum Thema Prokrastination werden zumeist Fragen beantwortet, die den Einfluss von Prokrastination auf die Leistung untersuchen. 
@@ -58,7 +58,7 @@ In dem bspw. die Zeiten die Studierende mit verschiedenen Prokrastinationstätig
 Allerdings wäre diese Methode erheblich aufwendiger, wenn auch möglicherweise in den Ergebnissen ertragreicher und vor allem genauer.
 
 
-# Method
+# Methode
 Aufbauend auf der oben festgelegten Hypothese und Forschungsfrage, war der erste Schritt das Festlegen unserer Operationalität. Diese besteht aus einer gemessenen Variablen, die Messungsart sowie einem Interpretationsplan für die Ergebnisse der Messung. 
 
 Die Zielgruppe der Teilnehmer wurde somit auf Studierende aller Fachbereiche, welche aktiv am studieren sind festgelegt. Zusätzlich wurde der Survey auf Deutsch verfasst und grenzt somit die Teilnahme auf Deutschsprachige Studierende ein. Wir wollten eine hohe Anzahl an Teilnehmern erzielen durch die Leichtigkeit des Themas sowie einer witzigen Formulierung und Durchführung. Somit waren die Sozialen Medien die perfekte verbreitunsmethode für unseren Survey. Initial wollten wir auch Mailinglisten verwenden jedoch wurde darauf hingewiesen, dass sehr viel Surveys in Zirkulation sind und somit hatten wir uns auf Discord, Twitter, Facebook und Instagram begrenzt. 
@@ -69,6 +69,7 @@ Durch das Festlegen der Prokrastination als Variable, war die nächste große Fr
 Die erste Idee dazu war eine Survey-Frage, welche die Studierenden um eine Angabe der geschätzten Stunden, welche sie Prokrastiniert haben anzugeben. Jedoch stellte sich sehr schnell heraus, dass dies sehr schwer zu beantworten ist, insbesondere ohne Skala. Ist es uns wichtig zu wissen wieviel pro Tag Prokrastiniert wurde oder im gesamten Prüfunszeitraum? Haben alle Fachbereiche dieselben Prüfungszeiträume und Abläufe? Können wir diese Ergebnisse dann korrekt gegenüberstellen ohne falsifizieren durch die Unterschiede? Dazu kommt das nicht jeden Tag gleichviel Prokrastiniert wird, welches die Ergebnisse auch beeinträchtigen könnte. Auch nach der Anpassung auf eine Prozentuale Einschätzung der Prokrastinationszeit blieben dieselben Probleme. Somit haben wir uns entschlossen nicht nach einer numerischen Antwort zu Fragen, sondern eher einer gefühlten Einschätzung, einerseits der Prokrastinationszeit sowie der Zufriedenheit der Prüfungsergebnisse. Damit wollten wir sehen ob viel Prokrastinieren einen negativ Eingeschätzten Erfolg verursacht oder ob wenig Prokrastiniren in eine höhere Zufriedenheit bei den Prüfungsergebnissen führt. Hier war es uns wichtig eine Persönliche Einschätzung abzufragen denn viel Prokrastiniern kann von Person zu Person unterschiedlich definiert sein, bspw. wäre 2h Prokrastinieren für eine Person viel und für eine andere sehr wenig. Um hier nicht eine Definition von „viel Prokrastination“ selbst zu definieren, und den Individualismus zu erhalten haben wir direkt nach einer persönlichen Einschätzung gefragt. Dasselbe gilt auch für die Zufriedenheit, denn eine 1,3 ist für manche fantastisch und andere schrecklich und dies können wir nicht für jeden korrekt interpretieren. 
 
 Der zweite wichtige Anhaltspukt waren die Art der konsumierten Medien und Prokrastinationsmethoden. Somit war es wichtig die Prokrastinationsmethoden in den folgenden Kategorien zusammenzufassen: 
+
 a)	Sport
 
 b)	Fernsehen/Streamen/Videos/Filme schauen
@@ -103,7 +104,7 @@ Zur Motivation hatten wir vor dem Survey einerseits einen kleinen Prokrastinatio
 
 Nach dieser Frage kam der zweite Teil unseres Surveys, welcher sich mit der eingeschätzten Prokrastinationszeit, Zufriedenheit und Demographischen Daten beschäftigte. Zuletzt war eine weitere Witzfrage um einen Prokrastinationsgeheimtipp, welcher die Teilnehmer mit einem Lächeln lassen sollte, da sie jegliches angeben konnten. Nach der Auswertung eines anderen Teams, hatten wir den Hinweis, dass viele gerne die Ergebnisse sehen würden, somit haben wir eine 15. Frage hinzugefügt, bei welche man gerne die E-Mail angeben konnte, um die Resultate später zu bekommen. Die komplette Formulierung und Reihenfolge der Frage können in Appendix I nachgeschlagen werden. 
 
-# Data Analysis & Results
+# Daten Auswertung und Ergebnisse
 - Number and characterization of respondents.
 - Description of the approach for the data validation and analysis, short explanation of important scripts you used.
 - Description of the considerations and the results of your search for scientific statements and correlations; possibly with quantitative results and/or graphic visualizations.
@@ -202,7 +203,7 @@ plot.for.categories()
 ```
 
 
-# Conclusions
+# Schlussfolgerungen
 
 Für diese Studie ist es schwer eine spezifische Schlussfolgerung zu treffen zu der Ablenkung nach Fachbereich, denn wir hatten großteilig nur Teilnehmer aus den MINT-Fächern. Dementsprechend sind unsere Ergebnisse davon beeinflusst und weisen einen Bias auf. Denn die sechs Teilnehmer:innen des Fachbereich Musik, Kunst und Gestaltung, sind nicht aussagekräftig genug über den gesamten Fachbereich. Dementsprechend fehlt es an der Verallgemeinerbarkeit unserer Ergebnisse. Zusätzlich ist ein Vergleich mit den Antworten der 42 Teilnehmer*innen aus dem Fachbereich Mathematik, Informatik und Naturwissenschaften nicht proportional und verringert die Validität unserer Auswertung. 
 Wir können jedoch aus der Analyse sehen, dass alle Fachbereiche prokrastinieren und dabei viele verschiedene Möglichkeiten nutzen. 
@@ -214,7 +215,7 @@ Bei der Auswertung der Beziehung zwischen Prokrastination und Zufriedenheit der 
 Für weitere Studien wäre es interessant, unsere Studie mit mehr Teilnehmer:innen zu wiederholen sowie mit mehr Teilnehmer:innen aus den verschiedenen Fachbereichen, sodass deren Anteile ungefähr gleichmäßig groß sind. Ebenfalls von Interesse wäre eine spezifischere Studie, die eine der Fragen in unserem Questionnaire vertieft, beispielsweise mit Fokus auf Social Media und Prokrastination, für einen tieferen Einblick. Es wäre auch interessant zu erforschen, ob regional Unterschiede existieren bei der Prokrastination. 
 
 
-# Reflection
+# Reflexion
 Die Forschungsfrage ist ein viel wichtiger Teil der Studie wie gedacht. Sie muss präzise formuliert werden und sehr gut durchdacht sein, um die gewollte Antwort zu erzielen. Vor dem Projekt war uns nicht klar wie schwierig solch eine Formulierung sein kann und wie wichtig, sie dennoch ist. Zusätzlich ist uns im Nachhinein Aufgefallen, dass wir eine sehr offene Frage hatten die in einem Qualitative Umfeld möglicherweise besser auszuwerten wäre. 
 
 Die Formulierung des Questionnaires ergab sich als komplexer wie wir Anfangs gedacht haben, uns war auch die Auswertung des Entwurfs sehr Hilfreich.
@@ -230,7 +231,7 @@ Die Evaluation mit R war sehr interessant und herausfordernd durch die Vielzahl 
 
 Insgesamt haben wir gelernt, wie wichtig eine hohe und diverse Anzahl an Teilnehmenden ist, damit überhaupt die Forschungsfrage beantworten werden kann und Schlüsse daraus gezogen werden können. Somit sind unsere Schlussfolgerungen hier sehr mit Vorsicht zu betrachten.
 
-# Attachments
+# Anhänge
 ## Recruitment Letter
 ```{r, fig.align='center', out.width="75%", fig.cap='Social Media Poster als Recruitment Letter'}
 knitr::include_graphics('img/poster.png')
@@ -291,12 +292,11 @@ Ein fröhliches Ende zum Survey.
 15.	Möchtest du über die Ergebnisse dieser Umfrage informiert werden? Dann schreiben wir dir eine Email, wenn es soweit ist.
 Um den Teilnehmern die Möglichkeit zu bieten die Auswertung selbst zu begutachten. 
 
-## Raw data and analyses scripts
+
+# Rohdaten und Auswertungsskript
 ```{r}
 create_dt(umfrage, cap = params$csv_file)
 ```
-
-# Scripts
 
 ```{r, code = readLines("Abschluss_Studienbereiche.R"), echo=TRUE, eval = FALSE}
 
