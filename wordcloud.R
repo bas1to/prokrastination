@@ -25,7 +25,7 @@ make.word.cloud = function(words_data){
   docs = tm_map(docs, stripWhitespace)
   docs <- tm_map(docs, content_transformer(tolower))
   docs <- tm_map(docs, removeWords, stopwords("german"))
-  docs <- tm_map(docs, removeWords, c("betrifft", "dass", "mal", "coole", "ans", "the", "amp", "erstmal", "allgemein", "einfach", "vielleicht", "genug", "auseinander"))
+  docs <- tm_map(docs, removeWords, c("betrifft", "dass", "mal", "ccoole", "ans", "the", "amp", "erstmal", "allgemein", "einfach", "vielleicht", "genug", "auseinander"))
   dtm <- TermDocumentMatrix(docs) 
   matrix <- as.matrix(dtm) 
   words <- sort(rowSums(matrix),decreasing=TRUE) 

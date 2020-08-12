@@ -192,33 +192,40 @@ Bachelor/Master haben genug  Teilnehmer um die Angaben vergleichbar zu machen - 
 
 
 ## Qualitative Analyse
-Rohdaten:
+
+Die Teilnehmer:innen wurden nach einem Prokrastinationsgeheimtipp gefragt. Sie konnten in einem Textfeld ohne Vorgaben antworten. Dies sind die entsprechenden Rohdaten (44 Antworten):
 ```{r, comment = ''}
 geheimtipps = delete.empty.rows(umfrage, "Textfeld")
 create_dt(as.data.frame(geheimtipps$Textfeld), coln = "Geheimtipps", cap = "Prokrastinationsgeheimtipps der Teilnehmenden")
 ```
 
-Als Wordcloud:
-```{r}
-word.cloud(params$csv_file, "Textfeld")
+Als erstes Analysetool wurde eine Wordcloud gewählt, da diese sehr gut geeignet ist, um Daten in Textformat zu visualisieren und dadurch einen ersten Überblick zu gewinnen. Die Größe der einzelnen Wörter entspricht ihrer Häufigkeit im Text:
+```{r, fig.align='center', fig.cap='Wordcloud für die Prokrastinationsgeheimtipps'}
+knitr::include_graphics('img/wordcloud.PNG')
 ```
 
-TODO: Kategorienbildung erklären
-```{r, fig.align='center', fig.cap='Gruppierte Prokrastinationsgeheimtipps'}
+Wie man sieht, sind Masturbation, Backen und Lernen am häufigsten genannt worden (jeweils dreimal). Hier erkennt man direkt auch eine Schwäche einer Wordcloud: Die Wörter sind aus dem Zusammenhang gerissen. Nur eine Person schlägt tatsächlich Lernen als Prokrastinationstätigkeit vor (eine neue Sprache). Die anderen beiden Personen haben hingegen Tipps gegeben, wie man nicht lernen muss ("Erstmal nochmal schlafen wenn man zu müde zum lernen ist.", "Zähneputzen nach jedem Snack nur um nicht lernen zu müssen").
+
+Eine weitere Schwäche dieser Analysemethode ist, dass ähnliche Begriffe separat gezählt werden, sodass die Häufigkeit mehrfach genannter Tätigkeiten wie z.B. zu schlafen, in der Wordcloud nicht ersichtlich ist ("Schlafen" vs. "Nickerchen").
+
+Deshalb wurde versucht, sich ähnelnde Antworten sinnvoll zu gruppieren:
+
+```{r, fig.align='center'}
 knitr::include_graphics('img/gruppierung_geheimtipps.PNG')
 ```
 
-Resultierende Kategorien:
+Über die Gruppierungen lässt sich sicherlich streiten und andere Anordnungen wären ebenfalls möglich. Die oben zu sehenden resultierenden Kategorien wurden folgendermaßen benannt:
 ```{r, comment = ''}
 kats = my.read.csv(params$kat)
 levels(kats$Kategorien)
 ```
 
-Häufigkeit der Kategorien:
+Und es ergibt sich ein Diagramm für die Häufigkeiten der Kategorien:
 ```{r, fig.align = 'center', comment = ''}
 plot.for.categories("Häufigkeit")
 ```
 
+Somit ist Masturbation als Prokrastinationsgeheimtipp noch weit vorne, aber nicht mehr Spitzenreiter. Zu den am häufigsten genannten Antworten gehören Tätigkeiten, die etwas mit Arbeit oder Essen zu tun haben. Gründe dafür könnten sein, dass so das schlechte Gewissen beruhigt wird, das viele beim Prokrastinieren verspüren, da man ja statt zu lernen immerhin etwas Sinnvolles macht (Arbeiten) bzw. etwas, das auch irgendwann gemacht werden muss (Essen). Wenn man mit diesem Gedanken noch einmal auf die einzelnen Antworten guckt, stellt man fest, dass nahezu jeder Geheimtipp diese Eigenschaft erfüllt. 
 
 # Schlussfolgerungen
 
