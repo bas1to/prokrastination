@@ -264,45 +264,62 @@ knitr::include_graphics('img/poster.png')
 ### Der Finale Fragbogen:
 
 1.	Hast du in der vergangenen Prüfungsphase mindestens einmal prokrastiniert, anstatt zu lernen? 
+
+Um zu überprüfen ob die Teilnehmer für den Survey geeignet sind. 
+
+2.	Womit hast du in deiner letzten Prüfungsphase prokrastiniert? (Mehrfachantworten möglich)
+
 Direkte Korrelation: wir möchten wissen welcher Hobby Kategorie die Person beim prokrastinieren nachgeht.
 
 
-2.	Womit hast du in deiner letzten Prüfungsphase prokrastiniert? (Mehrfachantworten möglich)
+
+3.	Welche der von dir obigen ausgewählten Ablenkungsmanöver gehören zu deinen Top 3? (Mehrfachantworten möglich) 
+
  Wir möchten wissen welchen Stellenwert das Hobby einnimmt bzw. welche 3 am beliebtesten sind, und daraus welches das 1 Prokrastinations-Hobby ist.
 
 
-3.	Welche der von dir obigen ausgewählten Ablenkungsmanöver gehören zu deinen Top 3? (Mehrfachantworten möglich) 
+
+4.	Mit welchen Social-Media-Services hast du dich in der letzten Prüfungsphase abgelenkt? (Mehrfachantworten möglich) 
+
  Direkte Korrelation: uns ist wichtig welche Services genau verwendet werden um herauszufinden ob es hier einen beliebtesten Service gibt und ob es vielleicht von international zu nationalen Studenten unterscheide gibt.
 
 
-4.	Mit welchen Social-Media-Services hast du dich in der letzten Prüfungsphase abgelenkt? (Mehrfachantworten möglich) 
+5.	Mit welchen Streaming-Diensten hast du dich in der letzten Prüfungsphase abgelenkt? (Mehrfachantworten möglich) 
+
 Die selbe Idee wie bei 3.
 
 
-5.	Mit welchen Streaming-Diensten hast du dich in der letzten Prüfungsphase abgelenkt? (Mehrfachantworten möglich) 
+
+6.	Welche Serie hast du in der vergangenen Prüfungszeit für dich entdeckt?
+
 Dies sollte eine offene Frage sein um die Interviewten direkt zu motivieren, ohne einen großen Beitrag zum Umfrage-ziel zu haben und die Teilnehmer aufzuwecken, falls sie eingeschlafen sind.
 
 
-6.	Welche Serie hast du in der vergangenen Prüfungszeit für dich entdeckt?
+7.	Wie ist deine letzte Prüfungsphase ausgefallen, d.h. wie zufrieden bist du mit deiner Leistung?
+
 Hier fragen wir ab, wie der Teilnehmer seine Leistung selber Einschätzt. Ohne direkt die Note abzufragen. Das hat den Vorteil, dass sich hier ein Trend gezeigt wird.
 
 
-7.	Wie ist deine letzte Prüfungsphase ausgefallen, d.h. wie zufrieden bist du mit deiner Leistung?
+
+8.	Wie viel Zeit hast du in der letzten Prüfungsphase von deiner Lernzeit gefühlt insgesamt prokrastiniert?
+
 Hier möchten wir erfahren ob der Teilnehmer sich als sehr prokrastinierend einschätzt oder nicht. Und vielleicht einschätzen ob die Person gefühlt mehr oder weniger Prokrastiniert hat im Vergleich zu anderen Studiengängen.
 
 
-8.	Wie viel Zeit hast du in der letzten Prüfungsphase von deiner Lernzeit gefühlt insgesamt prokrastiniert?
+
+9.	Unterscheidet sich dein Prokrastinationsverhalten der letzten Prüfungsphase von der vorherigen ?
+
 Hier soll herausgefunden werden ob die Schlüsse die wir am Ende treffen werden sich auf mehrere Semester verallgemeinern lassen. Also ob das Prokrastinationsverhalten eher gleichbleibend ist oder sich ständig verändert.
 
 
-9.	Unterscheidet sich dein Prokrastinationsverhalten der letzten Prüfungsphase von der vorherigen ?
+10.	In welchen der folgenden Bereiche lässt sich dein Studienfach einordnen? (Mehrfachantworten möglich)
+
 Um bei der Auswertung später mögliche Unterschiede zwischen Studiengängen herausfiltern zu können bzgl. des Studienfachs.
 
 
-10.	In welchen der folgenden Bereiche lässt sich dein Studienfach einordnen? (Mehrfachantworten möglich)
-Um später mögliche Unterschiede zwischen verschiedenen Studiengängen (Master, Bachelor, usw.) herausfiltern zu können.
-
 #### Demographische Daten der Teilnehmer für eventuelle Analyse sammeln (Nationalität und Geschlecht sind für unsere Forschungsfrage nicht relevant bzw. out of scope):
+
+Um später mögliche Unterschiede zwischen verschiedenen Studiengängen (Master, Bachelor, usw.) herausfiltern zu können.
 
 11.	Welchen Abschluss strebst du derzeit an? 
 
@@ -311,9 +328,11 @@ Um später mögliche Unterschiede zwischen verschiedenen Studiengängen (Master,
 13.	Wie alt bist du?
 
 14.	Falls uns mal die Ideen ausgehen sollten, was wir machen können, anstatt zu lernen: Wie lautet dein Prokrastinationsgeheimtipp?
+
 Ein fröhliches Ende zum Survey.
 
 15.	Möchtest du über die Ergebnisse dieser Umfrage informiert werden? Dann schreiben wir dir eine Email, wenn es soweit ist.
+
 Um den Teilnehmern die Möglichkeit zu bieten die Auswertung selbst zu begutachten. 
 
 
